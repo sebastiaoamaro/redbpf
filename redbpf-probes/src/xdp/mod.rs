@@ -39,7 +39,7 @@ pub mod prelude;
 mod xskmap;
 
 pub use devmap::DevMap;
-pub use xskmap::XskMap;
+// pub use xskmap::XskMap;
 
 use crate::bindings::*;
 use crate::maps::{BpfMap, PerfMap as PerfMapBase, PerfMapFlags};
